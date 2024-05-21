@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .wai{
+        display: flex;
+        margin-top: 130px;
+        justify-content: center; /* 水平居中 */
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 400px;
+        background-color: rgb(149, 157, 157);
+        padding: 20px;
+        background: url(./郭嘉斌.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+    .login_nei{
+        display: flex;
+        height: 90px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        width: 240px;
+        height: 40px;
+    }
+    .label{
+        margin-right: 20px;
+    }
+</style>
+<body>
+    <div class="wai">
+        <div class="main">
+            <div class="login_wai">
+                <form action="" method="post">
+                    <div class="login_nei">
+                        <label for="username" class="label">用户:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="login_nei">
+                        <label for="password" class="label">密码:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="login_nei">
+                        <button type="submit" class="button">登录</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
