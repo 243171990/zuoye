@@ -1,61 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <meta charset="UTF-8"> <!-- 设置文档字符编码为UTF-8，保证文档内容的正确显示 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 使页面适应不同设备的宽度，进行响应式设计 -->
+    <title>Login</title> <!-- 页面标题，显示在浏览器标签上 -->
 </head>
 <style>
     body{
-        margin: 0;
-        padding: 0;
+        margin: 0; /* 清除浏览器默认的外边距 */
+        padding: 0; /* 清除浏览器默认的内边距 */
     }
     .wai{
-        display: flex;
-        margin-top: 130px;
+        display: flex; /* 使用Flexbox布局 */
+        margin-top: 130px; /* 设置顶部外边距为130px */
         justify-content: center; /* 水平居中 */
     }
     .main{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 600px;
-        height: 400px;
-        background-color: rgb(149, 157, 157);
-        padding: 20px;
-        background: url(./郭嘉斌.jpg) no-repeat;
-        background-size: 100% 100%;
+        display: flex; /* 使用Flexbox布局 */
+        align-items: center; /* 垂直居中 */
+        justify-content: center; /* 水平居中 */
+        width: 600px; /* 设置容器宽度为600px */
+        height: 400px; /* 设置容器高度为400px */
+        background-color: rgb(149, 157, 157); /* 设置背景颜色 */
+        padding: 20px; /* 设置容器内边距为20px */
+        background: url(./image/郭嘉斌.jpg) no-repeat; /* 设置背景图像并禁止重复显示 */
+        background-size: 100% 100%; /* 设置背景图像的大小以覆盖整个容器 */
     }
     .login_nei{
-        display: flex;
-        height: 90px;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
+        display: flex; /* 使用Flexbox布局 */
+        height: 90px; /* 设置高度为90px */
+        width: 100%; /* 宽度占据父容器的100% */
+        justify-content: center; /* 水平居中 */
+        align-items: center; /* 垂直居中 */
     }
     .button{
-        width: 240px;
-        height: 40px;
+        width: 240px; /* 设置按钮宽度为240px */
+        height: 40px; /* 设置按钮高度为40px */
     }
     .label{
-        margin-right: 20px;
+        margin-right: 20px; /* 设置右外边距为20px */
     }
 </style>
 <body>
-    <div class="wai">
-        <div class="main">
-            <div class="login_wai">
-                <form action="" method="post">
-                    <div class="login_nei">
-                        <label for="username" class="label">用户:</label>
-                        <input type="text" id="username" name="username" required>
+    <div class="wai"> <!-- 外层容器，用于水平居中内容 -->
+        <div class="main"> <!-- 主容器，包含登录表单和背景图像 -->
+            <div class="login_wai"> <!-- 登录表单的外层容器 -->
+                <form action="" method="post"> <!-- 登录表单，使用POST方法提交 -->
+                    <div class="login_nei"> <!-- 表单项的容器，用于对齐标签和输入框 -->
+                        <label for="username" class="label">用户:</label> <!-- 用户名标签，关联输入框 -->
+                        <input type="text" id="username" name="username" required> <!-- 用户名输入框，设置为必填 -->
                     </div>
-                    <div class="login_nei">
-                        <label for="password" class="label">密码:</label>
-                        <input type="password" id="password" name="password" required>
+                    <div class="login_nei"> <!-- 表单项的容器，用于对齐标签和输入框 -->
+                        <label for="password" class="label">密码:</label> <!-- 密码标签，关联输入框 -->
+                        <input type="password" id="password" name="password" required> <!-- 密码输入框，设置为必填 -->
                     </div>
-                    <div class="login_nei">
-                        <button type="submit" class="button">登录</button>
+                    <div class="login_nei"> <!-- 表单项的容器，用于对齐按钮 -->
+                        <button type="submit" class="button">登录</button> <!-- 提交按钮，点击后提交表单 -->
                     </div>
                 </form>
             </div>
@@ -63,4 +63,3 @@
     </div>
 </body>
 </html>
-
