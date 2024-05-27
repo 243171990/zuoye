@@ -412,8 +412,8 @@ not 布尔“非”
 !=  等于不等于
 ```
 逻辑运算符与比较运算符可以作为判断条件。使用 bool()函数来判断真假，True 代表真， False 代表假。此处可以结合后面的真值表进行练习。
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](./image/image.png)
+![alt text](./image/image-1.png)
 按位与(&)：都是 1，才取 1，否则为 0。 
 按位或(|)：存在 1，就取 1，均不为 1，即为 0。 
 按位取反(~)：每个位上都取相反值，1 变成 0，0 变成 1。 
@@ -439,7 +439,7 @@ not 布尔“非”
 '好好学习' 
 ```
 ### （二）转义字符   
-![alt text](image-2.png)
+![alt text](./image/image-2.png)
 为避免对字符串中的转义字符进行转义，可以在字符串前面加上字母 r 或 R 表示原始字符 串，如上图所示。常用在文件路径，URL 和正则表达式等。 
 
 ### （三）字符串索引   
@@ -463,14 +463,14 @@ not 布尔“非”
 ``` 
 ### （五）字符串的操作 
 **1. 字符串的操作符**
-![alt text](image-5.png)  
-![alt text](image-3.png)
-![alt text](image-4.png)
+![alt text](./image/image-5.png)  
+![alt text](./image/image-3.png)
+![alt text](./image/image-4.png)
 **2. 字符串处理函数**
-![alt text](image-6.png)
-![alt text](image-7.png)
+![alt text](./image/image-6.png)
+![alt text](./image/image-7.png)
 **3. 字符串处理方法**
-![alt text](image-8.png)
+![alt text](./image/image-8.png)
 ```python
 >>> "Python".lower() 
 'python' 
@@ -512,7 +512,7 @@ not 布尔“非”
 **1. format()方法参数的使用顺序**
 format()的槽不仅包括参数序号还包括格式控制信息，语法格式为： 
 {<参数序号>:<格式控制标记>}
-![alt text](image-9.png)
+![alt text](./image/image-9.png)
 
 格式控制标记总共 6 个字段，这些字段均为可选，可以组合使用。例如： 
 
